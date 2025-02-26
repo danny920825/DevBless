@@ -14,9 +14,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/danny920825/devbless"
+    "url": "git+https://github.com/danny920825/devbless.git"
   },
-  "keywords": ["fetch", "wrapper", "typescript", "api", "http"],
+  "keywords": [
+    "fetch",
+    "wrapper",
+    "typescript",
+    "api",
+    "http"
+  ],
   "author": "Danny Paula",
   "license": "MIT",
   "devDependencies": {
