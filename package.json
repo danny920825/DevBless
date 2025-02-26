@@ -1,0 +1,28 @@
+{
+  "name": "devbless",
+  "version": "1.0.0",
+  "description": "Una librería ligera para mejorar el uso de fetch en proyectos JavaScript.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danny920825/devbless"
+  },
+  "keywords": ["fetch", "wrapper", "typescript", "api", "http"],
+  "author": "Danny Paula",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "typescript": "^5.7.3"
+  }
+}
